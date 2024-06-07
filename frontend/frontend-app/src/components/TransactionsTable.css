@@ -1,0 +1,21 @@
+/* src/components/TransactionsTable.css */
+.transactions-table {
+  width: 80%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.transactions-table th, .transactions-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.transactions-table th {
+  background-color: #f4b400;
+  color: black;
+}
+
+.transaction-image {
+  max-width: 50px;
+  height: auto;
+}
